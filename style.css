@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --bgcabecera: #000;
+    --bgbody: #2d2c2c;
+    --textgray: #7e7e7e;
+    --textwhite: #fff;
+}
+
+.menu {
+    background-color: var(--bgcabecera);
+    padding: .5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.logo_contain {
+
+    
+}
+
+.logo_img {
+    width: 8rem;
+
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    padding-right: 32px ;
+    gap: 2rem;
+    font-family: orbitron;
+    font-weight: bold;
+}
+
+.navbar a:hover { 
+    color: rgb(255, 0, 255);
+    text-shadow: 0 0 10px rgb(255, 123, 251);
+}
+
+img {
+    width: 2rem;
+    background-color: transparent;
+    
+}
+.navbar a {
+    text-decoration: none;
+    color: var(--textgray);
+}
+
+.menu_button {
+    background-color: var(--bgcabecera);
+    
+}
+
+body {
+    background-color: var(--bgbody);
+}
+
+aside>a {
+    text-decoration: none;
+    color: var(--textwhite);
+}
+
+h2>p {
+    caret-color: var(--textwhite);
+}
