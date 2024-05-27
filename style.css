@@ -25,15 +25,10 @@
     flex-wrap: wrap;
 }
 
-.logo_contain {
 
-    
-}
 
 .logo_img {
     width: 8rem;
-
-    
 }
 
 .navbar {
@@ -69,13 +64,4 @@ img {
 
 body {
     background-color: var(--bgbody);
-}
-
-aside>a {
-    text-decoration: none;
-    color: var(--textwhite);
-}
-
-h2>p {
-    caret-color: var(--textwhite);
 }
